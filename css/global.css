@@ -43,9 +43,33 @@ h1 {
 }
 .container {
   width: 100%;
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  max-width: 1110px;
+  margin: 100px auto;
+}
+.next-button {
+  display: inline-block;
+  text-align: center;
+  padding: 7px 10px;
+  background-color: rgb(41, 68, 240);
+  color: white;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  border-radius: 25px;
+  text-transform: capitalize;
+  &:hover {
+    text-decoration: underline;
+    background-color: rgb(33, 53, 177);
+    transition: 0.3s;
+  }
+}
+
+.next {
+  display: flex;
+  justify-content: center;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
 }
